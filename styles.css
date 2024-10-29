@@ -1,0 +1,60 @@
+:root{
+    --cor-primaria: white;
+    --cor-note: #3f62c4;
+    --cor-background: #e9ebf0;
+}
+
+body,
+html{
+    height: 100%;
+}
+
+code{
+    background-color: #cacccf;
+}
+
+svg{
+    width: 15px;
+    padding: 0px 8px;
+    border-right: 1px solid var(--cor-primaria);
+    
+}
+
+p{
+    padding: 0px 10px;
+}
+
+span{
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: fit-content;
+}
+.box{
+    position: relative;
+    background-color: var(--cor-background);
+    width: 850px;
+    height: fit-content;
+    height: fit-content;
+}
+
+.fantasma{
+    height: 25px;
+    position: absolute;
+    background-color: var(--cor-note);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    fill: white;
+    border-radius: 8px;
+    left: -10px;
+    top: -15px;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
